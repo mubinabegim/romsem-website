@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 import Logo from '../images/desktop/desktop-home-page/Logo.svg'
 import Line from '../images/desktop/desktop-home-page/line.png'
 import Pizza from '../images/desktop/desktop-home-page/1.png'
@@ -14,53 +16,53 @@ import Aksii from '../images/desktop/desktop-home-page/aksii.png'
 
 function sidebar() {
    return (
-      <div className='xl:w-[9%] lg:w-[15%] w-[30%]  mx-auto mt-6 text-center'>
-         <div className='flex flex-col items-center'>
+      <div className='2xl:w-[15%] lg:w-[12%] md:w-[16%] w-[20%] flex flex-col items-center mt-6 text-center'>
+         <div className='flex flex-col items-center 2xl:w-[100%] lg:w-[70%]'>
             <a href="#">
                <img src={Logo} alt="Romsem_logo" />
             </a>
-            <img className='py-7' src={Line} alt="line" />
+            <img className='2xl:py-7 lg:py-4' src={Line} alt="line" />
          </div>
-         <div className='flex flex-col justify-end mx-auto items-start'>
-            <div className={'flex justify-center gap-5 pb-7'}>
+         <div className='flex flex-col justify-end items-start'>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Pizza} alt="pizza" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>Пицца</p>
+               <a className='2xl:text-2xl text-base font-normal'>Пицца</a>
             </div>
-            <div className={'flex justify-center gap-5 pb-7'}>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Seti} alt="Seti" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>Сеты</p>
+               <Link to="/goods"><a className='2xl:text-2xl text-base font-normal'>Сеты</a></Link>
             </div>
-            <div className={'flex justify-center gap-5 pb-7'}>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={WOK} alt="pizza" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>WOK</p>
+               <a className='2xl:text-2xl text-base font-normal'>WOK</a>
             </div>
-            <div className={'flex justify-center gap-5 pb-7'}>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Roli} alt="pizza" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>Роллы</p>
+               <a className='2xl:text-2xl text-base font-normal'>Роллы</a>
             </div>
-            <div className={'flex justify-center gap-5 pb-7'}>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Sushi} alt="pizza" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>Суши</p>
+               <a className='2xl:text-2xl text-base font-normal'>Суши</a>
             </div>
-            <div className={'flex justify-center gap-5 pb-7'}>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Salati} alt="pizza" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>Салаты</p>
+               <a className='2xl:text-2xl text-base font-normal'>Салаты</a>
             </div>
-            <div className={'flex justify-center gap-5 pb-7'}>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Supi} alt="pizza" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>Супы</p>
+               <a className='2xl:text-2xl text-base font-normal'>Супы</a>
             </div>
-            <div className={'flex justify-center gap-5 pb-7'}>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Korn_dogi} alt="pizza" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>Корн доги</p>
+               <a className='2xl:text-2xl text-base font-normal'>Корн доги</a>
             </div>
-            <div className={'flex justify-center gap-5 pb-7'}>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Napitki} alt="pizza" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>Napitki</p>
+               <a className='2xl:text-2xl text-base font-normal'>Напитки</a>
             </div>
-            <div className={'flex justify-center gap-5 pb-7'}>
+            <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Aksii} alt="pizza" />
-               <p className='xl:text-2xl lg:text-xl text-base font-normal'>Aksii</p>
+               <a className='2xl:text-2xl text-base font-normal'>Акции</a>
             </div>
          </div>
       </div>
