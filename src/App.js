@@ -13,6 +13,7 @@ import GoodsCard from './pages/GoodsCard/GoodsCard'
 import Review from './pages/Review/Review'
 import Ofermleniye from "./pages/oformleniye-zakaza/index.js";
 
+
 function App() {
   return (
     <div className="App">

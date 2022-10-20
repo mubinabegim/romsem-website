@@ -11,12 +11,15 @@ import img8 from '../../images/desktop/desktop-goods/10.png'
 import img9 from '../../images/desktop/desktop-goods/9.png'
 import Button from '../../components/Button'
 import Text from '../../pages/main_page/Text'
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 
 
 const GoodsMain = () => {
    return (
       <div className='w-[65%] mx-auto bg-gray'>
+         <Navbar/>
          <div className='w-[85%] mx-auto pb-14'>
             <div className='flex gap-3 items-center py-5'>
                <img src={setiGoods} alt="settings" />
@@ -107,6 +110,7 @@ const GoodsMain = () => {
             </div>
          </div>
          <Text/>
+         <Footer/>
       </div>
    );
 }
