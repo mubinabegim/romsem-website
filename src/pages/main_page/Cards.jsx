@@ -12,23 +12,23 @@ const Cards = () => {
       <div className='flex gap-x-5 w-[85%] mx-auto justify-center items-center mt-10'>
          <div className='flex flex-col gap-y-5'>
             <Link to={"/oformleniye"}>
-               <img className='2xl:w-[100%] ' src={Img1} alt="meal" />
+               <img className='2xl:w-[100%]' src={Img1} alt="meal" />
             </Link>
             <Link to={"/oformleniye"}>
-               <img className='2xl:w-[100%] ' src={Img2} alt="meal" />
+               <img className='2xl:w-[100%]' src={Img2} alt="meal" />
             </Link>
          </div>
          <div className='flex flex-col gap-y-5'>
             <div className='flex gap-3'>
                <Link to={"/oformleniye"}>
-                  <img className='2xl:w-[100%] ' src={Img3} alt="meal" />
+                  <img className='2xl:w-[100%]' src={Img3} alt="meal" />
                </Link>
                <Link to={"/oformleniye"}>
-                  <img className='2xl:w-[100%] ' src={Img4} alt="meal" />
+                  <img className='2xl:w-[100%]' src={Img4} alt="meal" />
                </Link>
             </div>
             <Link to={"/oformleniye"}>
-               <img className='2xl:w-[100%] ' src={Img5} alt="meal" />
+               <img className='2xl:w-[100%]' src={Img5} alt="meal" />
             </Link>
          </div>
       </div>

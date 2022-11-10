@@ -71,3 +71,9 @@
   margin: -36px var(--swiper-pagination-bullet-horizontal-gap, 4px) !important;
   background-color: orange !important;
 }
+@font-face{
+  font-family: "Yantramanav";
+  src: url('./Yantramanav-Thin/yantramanav/Yantramanav-Thin.ttf');
+  font-style: normal;
+  font-weight: 100;
+}

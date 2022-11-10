@@ -16,11 +16,11 @@ import Aksii from '../images/desktop/desktop-home-page/aksii.png'
 
 function sidebar() {
    return (
-      <div className='2xl:w-[15%] lg:w-[12%] md:w-[16%] w-[20%] flex flex-col items-center mt-6 text-center'>
+      <div className='2xl:w-[20%] lg:w-[22%] md:w-[21%] w-[25%] flex flex-col items-center mt-6 text-center'>
          <div className='flex flex-col items-center 2xl:w-[100%] lg:w-[70%]'>
-            <a href="#">
+            <Link to="/">
                <img src={Logo} alt="Romsem_logo" />
-            </a>
+            </Link>
             <img className='2xl:py-7 lg:py-4' src={Line} alt="line" />
          </div>
          <div className='flex flex-col justify-end items-start'>
@@ -30,7 +30,7 @@ function sidebar() {
             </div>
             <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={Seti} alt="Seti" />
-               <Link to="/goods"><a className='2xl:text-2xl text-base font-normal'>Сеты</a></Link>
+               <Link to="/goods"><span className='2xl:text-2xl text-base font-normal'>Сеты</span></Link>
             </div>
             <div className={'flex justify-center 2xl:gap-5 gap-3 2xl:pb-7 pb-3'}>
                <img src={WOK} alt="pizza" />

@@ -4,7 +4,7 @@ import location from '../../images/desktop/desktop-home-page/location.png'
 
 export default function ThirdCol() {
   return (
-    <div className='2xl:w-[15%] w-[20%] mt-10'>
+    <div className='2xl:w-[22%] w-[27%] mt-10 pl-10'>
       <div className='bg-gray py-2 text-center'>
         <p className='2xl:text-2xl text-lg font-medium'>Ваша корзина пуста.</p>
         <p className='mt-1 mb-5 text-gray-500 text-xs'>Добавьте же скорее что-нибудь!</p>

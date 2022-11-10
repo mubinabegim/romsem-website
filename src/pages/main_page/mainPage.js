@@ -4,17 +4,15 @@ import SecondCol from '../../pages/main_page/SecondCol/SecondCol'
 import ThirdCol from './ThirdCol'
 
 
-export default function MainPage() {
+export default function MainPage({meals}) {
   return (
     <>
     <div className='sm:flex hidden'>
       <Sidebar />
-      <SecondCol className="w-[100%]"/>
+      <SecondCol meals={meals} className="w-[100%]"/>
       <ThirdCol />
     </div>
-    <div>
-      hello
-    </div>
+   
     </>
   )
 }
